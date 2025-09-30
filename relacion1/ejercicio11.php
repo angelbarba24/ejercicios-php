@@ -10,8 +10,8 @@
         <h2>Relación 1 - Ejercicio 11</h2>
 
         <?php
-            $a = 1;
-            $b = 9;
+            $a = 0;
+            $b = 0;
             $c = 1;
 
             if ($a != 0) {
