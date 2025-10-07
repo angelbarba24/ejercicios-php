@@ -14,11 +14,7 @@
             <form action="" method="get">
                 <div>
                     <label class="form-label" for="numero1">Introduce número 1:</label>
-                    <input class="form-control" type="text" name="numero1" id="numero1">
-                </div>
-                <div>
-                    <label class="form-label" for="numero2">Introduce número 2:</label>
-                    <input class="form-control" type="text" name="numero2" id="numero2">
+                    <input class="form-control" type="number" step="0.01" name="numero1" id="numero1">
                 </div>
                 <div>
                     <label for="operador">Elige operador:</label>
@@ -29,6 +25,10 @@
                         <option value="division">/</option>
                         <option value="resto">%</option>
                     </select>
+                </div>
+                <div>
+                    <label class="form-label" for="numero2">Introduce número 2:</label>
+                    <input class="form-control" type="number" step="0.01" name="numero2" id="numero2">
                 </div>
                 <input class="form-control my-3" type="submit" value="Enviar">
             </form>
