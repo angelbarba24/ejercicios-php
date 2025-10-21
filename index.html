@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Índice de Relaciones</title>
+        <link rel="shortcut icon" href="./playamar.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        .card {
+            min-height: 300px;
+            margin-top: 80px;
+        }
+
+        .card-text {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    </style>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="">Relaciones de Ejercicios de PHP</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="relacionesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Relaciones
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="relacionesDropdown">
+                        <li><a class="dropdown-item" href="./relacion1">Relación 1</a></li>
+                        <li><a class="dropdown-item" href="./relacion2">Relación 2</a></li>
+                        <li><a class="dropdown-item" href="./relacion3">Relación 3</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="container my-5">
+            <h2 class="mb-4 text-center">Selecciona una relación para comenzar</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+                    <div class="card shadow text-center">
+                    <div class="card-body">
+                        <h5 class="card-title mt-4">Relación 1</h5>
+                        <p class="card-text">Ejercicios pertenecientes a la relación 1.</p>
+                        <a href="relacion1/index.html" class="btn btn-primary">Ver Relación 1</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow text-center">
+                    <div class="card-body">
+                        <h5 class="card-title mt-4">Relación 2</h5>
+                        <p class="card-text">Ejercicios pertenecientes a la relación 2.</p>
+                        <a href="relacion2/index.html" class="btn btn-primary">Ver Relación 2</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow text-center">
+                    <div class="card-body">
+                        <h5 class="card-title mt-4">Relación 3</h5>
+                        <p class="card-text">Ejercicios pertenecientes a la relación 3.</p>
+                        <a href="relacion3/index.html" class="btn btn-primary">Ver Relación 3</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-dark text-white text-center py-4">
+            © 2025 - Ángel Barba Fernández 2º DAW
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

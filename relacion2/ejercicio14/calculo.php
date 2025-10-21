@@ -17,7 +17,10 @@
         $porcentaje = $nota * 10;
 
         // Determinar clase de color según la nota
-        if ($nota < 5) {
+        if ($nota < 0 || $nota > 10) {
+            $color = 'bg-secondary';
+            $mensaje = 'Nota no válida';
+        } elseif ($nota < 5) {
             $color = 'bg-danger';
             $mensaje = 'Insuficiente';
         } elseif ($nota < 6) {
