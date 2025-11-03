@@ -8,6 +8,14 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="estilo.css">
     </head>
+    <style>
+        #wrapper {
+            height: 100vh;
+        }
+        .form-text {
+            visibility: hidden;
+        }
+    </style>
     <body>
         <div id="formulario" class="d-flex justify-content-center align-items-center">
             <form class="shadow p-3 rounded" action="<?php echo $_SERVER['PHP_SELF']?>" method="get">
