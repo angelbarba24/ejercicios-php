@@ -40,7 +40,7 @@
                 echo "<div class='mt-5'>";
                 echo "<div class='alert alert-info'><strong>Longitud de la circunferencia:</strong> " . number_format($circunferencia($radio), 2) . " cm</div>";
                 echo "<div class='alert alert-success'><strong>Área del círculo:</strong> " . number_format($area($radio), 2) . " cm²</div>";
-                echo "<div class='alert alert-warning'><strong>Volumen de la esfera:</strong> " . number_format($esfera($radio), 2) . " cm³</div>";
+                echo "<div class='alert alert-warning'><strong>Volumen de la esfera:</strong>" . number_format($esfera($radio), 2) . " cm³</div>";
                 echo "</div>";
             }
         ?>
