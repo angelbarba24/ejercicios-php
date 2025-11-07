@@ -10,7 +10,7 @@
         <h2>Relación 1 - Ejercicio 18</h2>
 
         <?php
-        $n1 = 47;
+        $n1 = 48;
         $n2 = 8;
 
         if ($n1 > 0 && $n2 > 0){

@@ -10,7 +10,7 @@
         <h2>Relación 1 - Ejercicio 12</h2>
 
         <?php
-        $nota = -1;
+        $nota = 8;
         
         switch ($nota) {
             case $nota < 0:
