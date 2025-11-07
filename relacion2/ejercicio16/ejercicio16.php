@@ -12,7 +12,7 @@
         <div class="container vh-100 d-flex justify-content-center align-items-center">
             <div class="card shadow p-4 w-100" style="max-width: 500px;">
                 <h2 class="text-center mb-4">Relación 2 - Ejercicio 16</h2>
-                <form id="formulario" action="calculo.php" method="get">
+                <form id="formulario" action=<?php echo htmlspecialchars("calculo.php")?> method="get">
                     <div class="mb-3">
                         <label for="numero" class="form-label">Número:</label>
                         <input type="text" class="form-control" id="numero" name="numero" placeholder="Introduce un número entero positivo">

@@ -11,7 +11,7 @@
         <div class="container vh-100 d-flex justify-content-center align-items-center">
             <div class="card shadow p-4 w-100" style="max-width: 500px;">
                 <h2 class="text-center mb-4">Relación 2 - Ejercicio 17</h2>
-                <form id="formulario" action="calculo.php" method="get">
+                <form id="formulario" action=<?php echo htmlspecialchars("calculo.php")?> method="get">
                     <div class="mb-3">
                         <label for="dividendo" class="form-label">Dividendo:</label>
                         <input type="text" class="form-control" id="dividendo" name="dividendo" placeholder="Número entero positivo">

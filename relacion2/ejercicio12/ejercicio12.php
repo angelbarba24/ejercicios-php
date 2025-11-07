@@ -10,7 +10,7 @@
     </head>
     <body>
         <div id="wrapper" class="d-flex justify-content-center align-items-center">
-            <form class="shadow p-3 rounded w-50" id="formulario" action="calculo.php" method="get">
+            <form class="shadow p-3 rounded w-50" id="formulario" action=<?php echo htmlspecialchars("calculo.php")?> method="get">
                 <h2>Relación 2 - Ejercicio 12</h2>
                 <div>
                     <label class="form-label" for="nombre">Introduce tu nombre: <span class="text-danger">*</span></label>
