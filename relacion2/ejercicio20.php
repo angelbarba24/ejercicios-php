@@ -61,7 +61,7 @@
                             echo "<p class='fs-5'>Decimal: <strong>$numero</strong></p>";
                             echo "<p class='fs-5'>Base $base: <strong>$resultado</strong></p>";
                         }
-                    }s
+                    }
                     ?>
                 </div>
             </div>
